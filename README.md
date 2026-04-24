@@ -19,34 +19,6 @@ i ngjashëm me Reddit, por i fokusuar në letërsi shqiptare dhe botërore.
 🍪 Cookies për personalizim (temë e errët/e çelët, madhësi shkronjash)
 🎨 Dark / Light Theme me ndërrues në Cilësimet
 
-
-🗂️ Struktura e Projektit
-lexo/
-├── index.php                  # Ridrejto në faqen kryesore
-│
-├── classes/
-│   └── Post.php               # Klasat Post, AdminPost, User + funksionet regex
-│
-├── includes/
-│   ├── config.php             # Konfigurim global, arrays, funksione helper
-│   ├── header.php             # Header i përbashkët + navigim
-│   └── footer.php             # Footer i përbashkët
-│
-├── pages/
-│   ├── home.php               # Kryefaqja — feed me sortim dhe filtrim
-│   ├── login.php              # Forma e hyrjes me validim
-│   ├── logout.php             # Shkatërrimi i sesionit
-│   ├── post.php               # Detajet e postimit + komente
-│   ├── new_post.php           # Krijo postim të ri (kërkon login)
-│   ├── categories.php         # Lista e kategorive
-│   ├── profile.php            # Profili i përdoruesit të kyçur
-│   ├── admin.php              # Panel admin (vetëm roli admin)
-│   └── settings.php           # Cilësimet — temë, font, profil
-│
-└── assets/
-    ├── css/style.css          # Stilizimi i plotë me CSS variables
-    └── js/main.js             # JavaScript minimal
-
 🚀 Udhëzime Ekzekutimi
 Kërkesat paraprake
 
